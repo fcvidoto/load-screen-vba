@@ -7,6 +7,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
+Option Compare Database
 Option Explicit
 
 'Constructor da classe
@@ -17,3 +18,4 @@ End Sub
 Private Sub Class_Terminate()
     Unload frmLoad
 End Sub
+
